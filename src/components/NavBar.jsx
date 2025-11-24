@@ -1,4 +1,4 @@
-import { Linkk } from "react-router-dom"; // ❌ wrong import
+import { Linkk } from "react-router-dom";
 
 function NavBar() {
   const links = [
@@ -7,8 +7,7 @@ function NavBar() {
   ];
 
   return (
-    <nav className="navbaar"> {/* ❌ wrong classname */}
-      {/* ❌ missing key, ❌ wrong component (Linkk) */}
+    <nav className="navbaar">
       {links.map((l) => (
         <Linkk to={l.path}>{l.name}</Linkk>
       ))}

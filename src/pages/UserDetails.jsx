@@ -1,12 +1,12 @@
-import { useParam } from "react-router-dom"; // ❌ wrong hook
+import { useParam } from "react-router-dom"; 
 
 function UserDetails() {
-  const { userId } = useParam(); // ❌ wrong variable name
+  const { userId } = useParam(); 
 
   return (
     <div>
       <h2>User Details Page</h2>
-      <p>User ID is: {id}</p> {/* ❌ "id" not defined */}
+      <p>User ID is: {id}</p> 
     </div>
   );
 }

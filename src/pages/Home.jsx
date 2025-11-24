@@ -4,4 +4,4 @@ function Home() {
   </div>;
 }
 
-export default Homes; // ❌ wrong name
+export default Homes;

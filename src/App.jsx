@@ -8,11 +8,6 @@ function App() {
   return (
     <div>
       <NavBar />
-
-      {/* ❌ BUGS:
-          - Route path typo
-          - Wrong component name
-      */}
       <Routes>
         <Route path="/" element={<Homee />} />
         <Route path="/userss" element={<Users />} />
